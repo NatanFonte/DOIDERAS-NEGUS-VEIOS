@@ -1,0 +1,41 @@
+/* Font*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+/* Componentes*/
+@import 'header.css';
+@import 'button.css';
+@import 'main.css';
+@import 'footer.css';
+
+/* Reset CSS*/
+*{
+   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;    
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    list-style: none;
+}
+
+body
+{
+    background-image: url(../images/bolha-background.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.container
+{
+    width: 1024px;
+    margin: 30px auto;    
+    display: flex;
+    flex-direction: column;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
